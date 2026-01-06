@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CSharpPrograms
 {
     /// <summary>
-    /// Value Type Dattypes - int,char,float,double,bool
+    /// Value Type Dataypes - int,char,float,double,bool
     /// Value Type dataypes = cannot accept null values
     /// null values to be assigned to a value type - Nullables
     /// C# 2.0 - Nullable<int> , ?
@@ -15,7 +15,7 @@ namespace CSharpPrograms
     /// </summary>
     internal class Nullables
     {
-        int? a = null;
+        int? a = null; //Nullable int - These variables can hold null values
         int? b = 100;
         int? c;
         int d = 200;
